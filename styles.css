@@ -383,3 +383,25 @@ nav a {
     font-size: 1.5rem;
   }
 }
+
+
+
+..skills-section {
+  margin-top: 40px;
+}
+
+.skills-section h3 {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.skills-section ul {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+.skills-section li {
+  margin-bottom: 6px;
+  line-height: 1.5;
+}
