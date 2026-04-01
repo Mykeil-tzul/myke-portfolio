@@ -447,3 +447,11 @@ nav a {
     font-size: 34px;
   }
 }
+
+
+#about p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #444;
+  max-width: 520px;
+}
