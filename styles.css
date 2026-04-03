@@ -455,3 +455,38 @@ nav a {
   color: #444;
   max-width: 520px;
 }
+
+
+.hero-subtext {
+  font-size: 1rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: 0.25rem;
+  max-width: 540px;
+}
+
+.project-card {
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.35);
+}
+
+.btn {
+  transition: all 0.2s ease;
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.btn-secondary:hover {
+  background: rgba(255,255,255,0.08);
+  transform: translateY(-2px);
+}
+
+.section {
+  border-bottom: 1px solid rgba(255,255,255,0.05);
+}
