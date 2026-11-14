@@ -3,6 +3,7 @@
 **Data Scientist | Client Consulting Analyst @ Visa | Former Pro Basketball Player**  
 📍 Atlanta, GA &nbsp;·&nbsp; 🎓 Georgia Tech OMSA (Jan 2027) &nbsp;·&nbsp; 🏀 Played professionally across 4 continents
 
+https://mykeil-tzul.github.io/myke-portfolio/?v=90#contact
 ---
 
 ## About me
