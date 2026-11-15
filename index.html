@@ -3,16 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Myke Tzul | Portfolio</title>
+  <title>Myke Tzul | AI/ML - Data Science &amp; Analytics</title>
   <meta name="description" content="Portfolio of Myke Tzul — Former Pro Hooper, Visa analyst, and builder at the intersection of tech, payments, sports, data, and storytelling." />
-  <meta property="og:title" content="Myke Tzul | Data Scientist" />
+  <meta property="og:title" content="Myke Tzul | AI/ML - Data Science &amp; Analytics" />
   <meta property="og:description" content="Former pro basketball player building ML models and analytics solutions in payments, sports, and civic data." />
   <meta property="og:image" content="https://mykeil-tzul.github.io/myke-portfolio/assets/profile-night.jpg" />
   <meta property="og:url" content="https://mykeil-tzul.github.io/myke-portfolio/" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=featured-projects" />
+  <link rel="stylesheet" href="styles.css?v=portfolio-resume" />
 </head>
 <body>
   <header class="site-header">
@@ -24,6 +24,7 @@
         <a href="#gallery">Gallery</a>
         <a href="#vision">Career</a>
         <a href="#contact">Contact</a>
+        <a href="assets/Mykeil_Tzul_Resume.pdf" target="_blank" rel="noopener">Résumé</a>
       </nav>
     </div>
   </header>
@@ -37,21 +38,21 @@
           <p class="eyebrow">FORMER PRO HOOPER • VISA CONSULTING & ANALYTICS</p>
           <h1>From pro basketball to building with data</h1>
           <p class="hero-text">
-            Client Consulting Analyst @ Visa | Data Scientist
+            Client Consulting Analyst @ Visa | AI/ML - Data Science &amp; Analytics
           </p>
           <p class="hero-subtext">
-              I build predictive models, data pipelines, and tools for reviewing basketball film.
+              I build predictive models, data tools, and interactive apps in payments, sports, and everyday life.
           </p>
           <div class="hero-actions">
             <a class="btn btn-primary" href="#projects">View My Work</a>
-            <a class="btn btn-secondary" href="#contact">Let’s Connect</a>
+            <a class="btn btn-secondary" href="assets/Mykeil_Tzul_Resume.pdf" target="_blank" rel="noopener">View Résumé (PDF)</a>
           </div>
         </div>
         <div class="hero-card">
           <img src="assets/profile-night.jpg" alt="Portrait of Myke Tzul" />
           <div class="hero-card-text">
             <h2>Myke Tzul</h2>
-            <p>Client Consulting Analyst @ Visa | Data Scientist | Analytics · ML · Payments </p>
+            <p>Client Consulting Analyst @ Visa | AI/ML - Data Science &amp; Analytics</p>
           </div>
         </div>
       </div>
@@ -123,72 +124,102 @@
         <h2>Featured projects</h2>
         <div class="project-grid">
           <article class="project-card">
-            <img class="project-preview" src="assets/gamelens-preview.jpg" alt="GameLens player tracking boxes over Myke's game film" loading="lazy" />
-            <span class="tag">Computer vision</span>
-            <h3>GameLens</h3>
-            <p>Applied YOLOX person detection and frame-to-frame tracking to basketball footage. The public film room pairs five clips from my playing days with overlays and downloadable track data.</p>
+            <img class="project-preview" src="assets/payworld-preview.webp" alt="Illustration of Myke buying a cappuccino" loading="lazy" />
+            <span class="tag">Payments engineering</span>
+            <h3>PayWorld</h3>
+            <p>Follow my fictional vanilla cappuccino purchase through the four-party model. Step through Visa network routing, duplicate requests, timeouts, settlement, and refunds.</p>
             <div class="card-actions">
-              <a href="https://mykeil-tzul.github.io/gamelens/" class="btn btn-primary">Open film room</a>
-              <a href="https://github.com/Mykeil-tzul/gamelens" class="btn btn-secondary">GitHub</a>
+              <a href="https://mykeil-tzul.github.io/payworld/" class="btn btn-primary" aria-label="Open PayWorld demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/payworld" class="btn btn-secondary" aria-label="PayWorld on GitHub">GitHub</a>
             </div>
           </article>
           <article class="project-card">
-            <img class="project-preview" src="assets/courtiq-preview.png" alt="CourtIQ dashboard with Luka Dončić's projected box score" loading="lazy" />
+            <img class="project-preview" src="assets/courtiq-preview.png" alt="CourtIQ forecast for Luka Dončić" loading="lazy" />
             <span class="tag">Predictive ML</span>
             <h3>CourtIQ</h3>
-            <p>Trained Ridge regression models to forecast next-game box scores for five NBA players. Compared the models with a five-game average on 249 held-out appearances.</p>
+            <p>Forecasts points, rebounds, and assists for five NBA players. I evaluated Ridge regression on later games and compared it with a recent-games average.</p>
             <div class="card-actions">
-              <a href="https://nba-player-predictor-bytzul.streamlit.app/" class="btn btn-primary">Try CourtIQ</a>
-              <a href="https://github.com/Mykeil-tzul/nba-player-predictor" class="btn btn-secondary">GitHub</a>
+              <a href="https://nba-player-predictor-bytzul.streamlit.app/" class="btn btn-primary" aria-label="Open CourtIQ demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/nba-player-predictor" class="btn btn-secondary" aria-label="CourtIQ on GitHub">GitHub</a>
             </div>
           </article>
           <article class="project-card">
-            <img class="project-preview" src="assets/nba-cloud-preview.png" alt="NBA Cloud Data Platform showing league coverage and Stephen Curry's game logs" loading="lazy" />
-            <span class="tag">Data engineering</span>
-            <h3>NBA Cloud Data Platform</h3>
-            <p>Built a scheduled pipeline that validates and publishes league-wide game logs. The initial snapshot covered 109,304 appearances, and the pipeline exports a CourtIQ-ready dataset.</p>
+            <img class="project-preview" src="assets/gamelens-preview.jpg" alt="Player-tracking boxes over Myke’s game film" loading="lazy" />
+            <span class="tag">Computer vision</span>
+            <h3>GameLens</h3>
+            <p>Applies YOLOX person detection and player tracking to basketball footage. The film room pairs clips from my playing days with tracking overlays and downloadable data.</p>
             <div class="card-actions">
-              <a href="https://nba-cloud-data-platform-bymt.streamlit.app/" class="btn btn-primary">Explore game logs</a>
-              <a href="https://github.com/Mykeil-tzul/nba-cloud-data-platform" class="btn btn-secondary">GitHub</a>
+              <a href="https://mykeil-tzul.github.io/gamelens/" class="btn btn-primary" aria-label="Open GameLens demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/gamelens" class="btn btn-secondary" aria-label="GameLens on GitHub">GitHub</a>
             </div>
           </article>
           <article class="project-card">
-            <span class="tag">Personal finance</span>
-            <h3>FamilyOS</h3>
-            <p>Built a household planner that checks proposed purchases against category limits, monthly cash flow, and upcoming bills. Visitors can explore fictional budgets or try the calculator-backed planner chat.</p>
+            <span class="tag">Geospatial data engineering</span>
+            <h3>CrisisTwin</h3>
+            <p>Maps NASA satellite heat detections across California. An automated pipeline validates the feed, joins readings to counties, and publishes a snapshot with freshness timestamps.</p>
             <div class="card-actions">
-              <a href="https://familos-bymt.streamlit.app/" class="btn btn-primary">Try FamilyOS</a>
-              <a href="https://github.com/Mykeil-tzul/family-budget-intelligence" class="btn btn-secondary">GitHub</a>
+              <a href="https://mykeil-tzul.github.io/crisistwin-disaster/" class="btn btn-primary" aria-label="Open CrisisTwin demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/crisistwin-disaster" class="btn btn-secondary" aria-label="CrisisTwin on GitHub">GitHub</a>
             </div>
           </article>
           <article class="project-card">
-            <span class="tag">Payments analytics</span>
-            <h3>Authorization Performance Dashboard</h3>
-            <p>Explores approval rates, decline patterns, and merchant segments in a payments analytics dashboard built with Python and Dash.</p>
+            <img class="project-preview" src="assets/chargepilot-preview.jpg" alt="Tesla Model Y, photo by Vauxford" loading="lazy" />
+            <span class="tag">Route optimization</span>
+            <h3>ChargePilot</h3>
+            <p>Compares time-first and cost-first EV charging stops using road routes, a public charger catalog, and a battery reserve. Includes a range simulator and ownership cost tools.</p>
             <div class="card-actions">
-              <a href="https://github.com/Mykeil-tzul/visa-authorization-performance-dashboard" class="btn btn-secondary">GitHub</a>
+              <a href="https://mykeil-tzul.github.io/chargepilot/" class="btn btn-primary" aria-label="Open ChargePilot demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/chargepilot" class="btn btn-secondary" aria-label="ChargePilot on GitHub">GitHub</a>
             </div>
           </article>
           <article class="project-card">
-            <span class="tag">Anomaly detection</span>
-            <h3>NBA Integrity Intelligence</h3>
-            <p>Built an interactive review queue for simulated market alerts. Compared threshold rules and Isolation Forest on 1,270 held-out NBA game records with fictional quote feeds.</p>
+            <span class="tag">On-device computer vision</span>
+            <h3>TendonTrack</h3>
+            <p>Inspired by my Achilles rupture. Uses MediaPipe in the browser to estimate heel raises and compare sessions. Video stays on the device.</p>
             <div class="card-actions">
-              <a href="https://mykeil-tzul.github.io/nba-integrity-intelligence/" class="btn btn-primary">Open review desk</a>
-              <a href="https://github.com/Mykeil-tzul/nba-integrity-intelligence" class="btn btn-secondary">GitHub</a>
+              <a href="https://mykeil-tzul.github.io/tendontrack/" class="btn btn-primary" aria-label="Open TendonTrack demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/tendontrack" class="btn btn-secondary" aria-label="TendonTrack on GitHub">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <span class="tag">Sports forecasting</span>
+            <h3>Knicks Win Predictor</h3>
+            <p>Estimates Knicks win probabilities before tipoff and grades saved picks against final scores. A historical test compares the model with a home-court baseline.</p>
+            <div class="card-actions">
+              <a href="https://knicks-win-probability-model-bymt.streamlit.app/" class="btn btn-primary" aria-label="Open Knicks Win Predictor demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/knicks-win-probability-model" class="btn btn-secondary" aria-label="Knicks Win Predictor on GitHub">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <span class="tag">Film-to-practice planning</span>
+            <h3>CourtCoach AI</h3>
+            <p>Turns confirmed film observations into a seven-day basketball workout plan, with timestamped evidence and a drill retest log.</p>
+            <div class="card-actions">
+              <a href="https://mykeil-tzul.github.io/courtcoach-ai/" class="btn btn-primary" aria-label="Open CourtCoach AI demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/courtcoach-ai" class="btn btn-secondary" aria-label="CourtCoach AI on GitHub">GitHub</a>
             </div>
           </article>
           <article class="project-card">
             <img class="project-preview" src="assets/belizeiq-preview.jpg" alt="Illustration of Belize’s Great Blue Hole" loading="lazy" />
-            <span class="tag">Geospatial analytics</span>
+            <span class="tag">Tourism and geospatial analytics</span>
             <h3>BelizeIQ</h3>
-            <p>Explore Belizean destinations and cuisine, compare national tourism trends, and inspect census data on a six-district map.</p>
+            <p>Explore Belizean destinations and cuisine, compare tourism trends, and inspect census data on a six-district map.</p>
             <div class="card-actions">
-              <a href="https://mykeil-tzul.github.io/belizeiq/" class="btn btn-primary">Explore BelizeIQ</a>
-              <a href="https://github.com/Mykeil-tzul/belizeiq" class="btn btn-secondary">GitHub</a>
+              <a href="https://mykeil-tzul.github.io/belizeiq/" class="btn btn-primary" aria-label="Open BelizeIQ demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/belizeiq" class="btn btn-secondary" aria-label="BelizeIQ on GitHub">GitHub</a>
             </div>
           </article>
         </div>
+        <div class="more-projects">
+          <h3>More projects</h3>
+          <ul>
+            <li><a href="https://familos-bymt.streamlit.app/">FamilyOS</a><span>Household budgeting and scenario planning</span></li>
+            <li><a href="https://statmatch.streamlit.app/">StatMatch</a><span>NBA player comparisons across eras</span></li>
+            <li><a href="https://mykeil-tzul.github.io/wonderworlds/">WonderWorlds</a><span>Adaptive early-learning games</span></li>
+            <li><a href="https://mykeil-tzul.github.io/walkwithjesuschrist/">Walk With Jesus Christ</a><span>On-device Scripture search and Gospel maps</span></li>
+          </ul>
+        </div>
+        <p class="project-credit">Model Y photo by <a href="https://commons.wikimedia.org/wiki/File:2022_Tesla_Model_Y_Long_Range_AWD_Front.jpg">Vauxford</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, resized and cropped for display.</p>
       </div>
     </section>
 
