@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=portfolio-resume" />
+  <link rel="stylesheet" href="styles.css?v=project-previews" />
 </head>
 <body>
   <header class="site-header">
@@ -112,7 +112,7 @@
               <li>Git & GitHub</li>
               <li>Streamlit</li>
               <li>DuckDB</li>
-              <li>AWS / GCP (learning)</li>
+              <li>AWS and GCP</li>
             </ul>
           </div>
         </div>
@@ -154,6 +154,7 @@
             </div>
           </article>
           <article class="project-card">
+            <img class="project-preview" src="assets/crisistwin-preview.webp" alt="California county map with NASA satellite heat detections" loading="lazy" />
             <span class="tag">Geospatial data engineering</span>
             <h3>CrisisTwin</h3>
             <p>Maps NASA satellite heat detections across California. An automated pipeline validates the feed, joins readings to counties, and publishes a snapshot with freshness timestamps.</p>
@@ -173,6 +174,7 @@
             </div>
           </article>
           <article class="project-card">
+            <img class="project-preview" src="assets/tendontrack-preview.webp" alt="Illustrated heel-raise movement trace" loading="lazy" />
             <span class="tag">On-device computer vision</span>
             <h3>TendonTrack</h3>
             <p>Inspired by my Achilles rupture. Uses MediaPipe in the browser to estimate heel raises and compare sessions. Video stays on the device.</p>
@@ -182,6 +184,7 @@
             </div>
           </article>
           <article class="project-card">
+            <img class="project-preview" src="assets/knicks-preview.webp" alt="Knicks win and loss forecast illustration" loading="lazy" />
             <span class="tag">Sports forecasting</span>
             <h3>Knicks Win Predictor</h3>
             <p>Estimates Knicks win probabilities before tipoff and grades saved picks against final scores. A historical test compares the model with a home-court baseline.</p>
@@ -191,6 +194,7 @@
             </div>
           </article>
           <article class="project-card">
+            <img class="project-preview" src="assets/courtcoach-preview.jpg" alt="Basketball footage used for the CourtCoach film review" loading="lazy" />
             <span class="tag">Film-to-practice planning</span>
             <h3>CourtCoach AI</h3>
             <p>Turns confirmed film observations into a seven-day basketball workout plan, with timestamped evidence and a drill retest log.</p>
@@ -209,17 +213,48 @@
               <a href="https://github.com/Mykeil-tzul/belizeiq" class="btn btn-secondary" aria-label="BelizeIQ on GitHub">GitHub</a>
             </div>
           </article>
+          <article class="project-card">
+            <img class="project-preview" src="assets/familyos-preview.webp" alt="Illustration of household categories for bills, spending, and savings" loading="lazy" />
+            <span class="tag">Household finance</span>
+            <h3>FamilyOS</h3>
+            <p>Explore sample household budgets, compare spending scenarios, and see where planned expenses leave room for savings.</p>
+            <div class="card-actions">
+              <a href="https://familos-bymt.streamlit.app/" class="btn btn-primary" aria-label="Open FamilyOS demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/family-budget-intelligence" class="btn btn-secondary" aria-label="FamilyOS on GitHub">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img class="project-preview" src="assets/statmatch-preview.webp" alt="Michael Jordan and LeBron James shown side by side" loading="lazy" />
+            <span class="tag">Sports analytics</span>
+            <h3>StatMatch</h3>
+            <p>Compare NBA players across eras, with headshots, career and season stats, and interactive trend charts.</p>
+            <div class="card-actions">
+              <a href="https://statmatch.streamlit.app/" class="btn btn-primary" aria-label="Open StatMatch demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/statmatch" class="btn btn-secondary" aria-label="StatMatch on GitHub">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img class="project-preview" src="assets/wonderworlds-preview.webp" alt="Colorful circle, triangle, and square tiles" loading="lazy" />
+            <span class="tag">Adaptive learning</span>
+            <h3>WonderWorlds</h3>
+            <p>Play five short games with spoken prompts and difficulty that adjusts by skill. Families can review progress on the same device.</p>
+            <div class="card-actions">
+              <a href="https://mykeil-tzul.github.io/wonderworlds/" class="btn btn-primary" aria-label="Open WonderWorlds demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/wonderworlds" class="btn btn-secondary" aria-label="WonderWorlds on GitHub">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img class="project-preview" src="assets/scripture-preview.jpg" alt="Sea of Galilee from Mount Arbel" loading="lazy" />
+            <span class="tag">On-device AI</span>
+            <h3>Walk With Jesus Christ</h3>
+            <p>Find KJV passages with on-device meaning search, explore Gospel journeys on a map, and keep a browser-local prayer journal.</p>
+            <div class="card-actions">
+              <a href="https://mykeil-tzul.github.io/walkwithjesuschrist/" class="btn btn-primary" aria-label="Open Walk With Jesus Christ demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/walkwithjesuschrist" class="btn btn-secondary" aria-label="Walk With Jesus Christ on GitHub">GitHub</a>
+            </div>
+          </article>
         </div>
-        <div class="more-projects">
-          <h3>More projects</h3>
-          <ul>
-            <li><a href="https://familos-bymt.streamlit.app/">FamilyOS</a><span>Household budgeting and scenario planning</span></li>
-            <li><a href="https://statmatch.streamlit.app/">StatMatch</a><span>NBA player comparisons across eras</span></li>
-            <li><a href="https://mykeil-tzul.github.io/wonderworlds/">WonderWorlds</a><span>Adaptive early-learning games</span></li>
-            <li><a href="https://mykeil-tzul.github.io/walkwithjesuschrist/">Walk With Jesus Christ</a><span>On-device Scripture search and Gospel maps</span></li>
-          </ul>
-        </div>
-        <p class="project-credit">Model Y photo by <a href="https://commons.wikimedia.org/wiki/File:2022_Tesla_Model_Y_Long_Range_AWD_Front.jpg">Vauxford</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, resized and cropped for display.</p>
+        <p class="project-credit">Model Y photo by <a href="https://commons.wikimedia.org/wiki/File:2022_Tesla_Model_Y_Long_Range_AWD_Front.jpg">Vauxford</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, resized and cropped for display. Sea of Galilee photo by <a href="https://commons.wikimedia.org/wiki/File:View_on_Sea_of_Galilee_from_Mount_Arbel.JPG">Zeromancer44</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, resized and cropped for display. StatMatch portraits from the NBA.</p>
       </div>
     </section>
 

@@ -15,5 +15,10 @@ A GitHub Pages site for my work in predictive modeling, data engineering, comput
 | [Knicks Win Predictor](https://knicks-win-probability-model-bymt.streamlit.app/) | Sports forecasting |
 | [CourtCoach AI](https://mykeil-tzul.github.io/courtcoach-ai/) | Film-to-practice planning |
 | [BelizeIQ](https://mykeil-tzul.github.io/belizeiq/) | Tourism and geospatial analytics |
+| [FamilyOS](https://familos-bymt.streamlit.app/) | Household finance |
+| [StatMatch](https://statmatch.streamlit.app/) | Sports analytics |
+| [WonderWorlds](https://mykeil-tzul.github.io/wonderworlds/) | Adaptive learning |
+| [Walk With Jesus Christ](https://mykeil-tzul.github.io/walkwithjesuschrist/) | On-device AI |
+
 
 To preview the site locally, run `python3 -m http.server 8000` from this directory and open `http://localhost:8000`. GitHub Pages serves the published site from `main`.
