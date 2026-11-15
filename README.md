@@ -19,6 +19,6 @@ A GitHub Pages site for my work in predictive modeling, data engineering, comput
 | [StatMatch](https://statmatch.streamlit.app/) | Sports analytics |
 | [WonderWorlds](https://mykeil-tzul.github.io/wonderworlds/) | Adaptive learning |
 | [Walk With Jesus Christ](https://mykeil-tzul.github.io/walkwithjesuschrist/) | On-device AI |
-
+| [NeuralGarden](https://mykeil-tzul.github.io/neuralgarden/) | Interactive MNIST training and learned representations |
 
 To preview the site locally, run `python3 -m http.server 8000` from this directory and open `http://localhost:8000`. GitHub Pages serves the published site from `main`.
