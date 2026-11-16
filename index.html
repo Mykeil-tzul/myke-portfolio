@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=career-cards" />
+  <link rel="stylesheet" href="styles.css?v=portfolio-12" />
 </head>
 <body>
   <header class="site-header">
@@ -122,7 +122,7 @@
     <section id="projects" class="section section-dark">
       <div class="container">
         <h2>Featured projects</h2>
-        <div class="project-grid">
+        <div class="project-grid project-grid-featured">
           <article class="project-card">
             <img class="project-preview" src="assets/payworld-preview.webp" alt="Illustration of Myke buying a cappuccino" loading="lazy" />
             <span class="tag">Payments engineering</span>
@@ -134,16 +134,6 @@
             </div>
           </article>
           <article class="project-card">
-            <img class="project-preview" src="assets/courtiq-preview.png" alt="CourtIQ forecast for Luka Dončić" loading="lazy" />
-            <span class="tag">Predictive ML</span>
-            <h3>CourtIQ</h3>
-            <p>Forecasts points, rebounds, and assists for five NBA players. I evaluated Ridge regression on later games and compared it with a recent-games average.</p>
-            <div class="card-actions">
-              <a href="https://nba-player-predictor-bytzul.streamlit.app/" class="btn btn-primary" aria-label="Open CourtIQ demo">Live demo</a>
-              <a href="https://github.com/Mykeil-tzul/nba-player-predictor" class="btn btn-secondary" aria-label="CourtIQ on GitHub">GitHub</a>
-            </div>
-          </article>
-          <article class="project-card">
             <img class="project-preview" src="assets/gamelens-preview.jpg" alt="Player-tracking boxes over Myke’s game film" loading="lazy" />
             <span class="tag">Computer vision</span>
             <h3>GameLens</h3>
@@ -151,6 +141,48 @@
             <div class="card-actions">
               <a href="https://mykeil-tzul.github.io/gamelens/" class="btn btn-primary" aria-label="Open GameLens demo">Live demo</a>
               <a href="https://github.com/Mykeil-tzul/gamelens" class="btn btn-secondary" aria-label="GameLens on GitHub">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img class="project-preview" src="assets/floodlens-preview.webp" alt="Sentinel-1 radar, model prediction, and reference mask side by side" loading="lazy" />
+            <span class="tag">Satellite imagery &amp; ML</span>
+            <h3>FloodLens</h3>
+            <p>Explore a historical flood with Sentinel-1 radar, compare a PyTorch model with a simple radar threshold, and inspect false alarms and misses.</p>
+            <div class="card-actions">
+              <a href="https://mykeil-tzul.github.io/floodlens/" class="btn btn-primary" aria-label="Open FloodLens demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/floodlens" class="btn btn-secondary" aria-label="FloodLens on GitHub">GitHub</a>
+            </div>
+          </article>
+        </div>
+        <div class="project-grid project-grid-compact">
+          <article class="project-card">
+            <img class="project-preview" src="assets/neuralgarden-preview.webp" alt="Colored points show the learned two-dimensional representations of MNIST digits" loading="lazy" />
+            <span class="tag">Deep learning</span>
+            <h3>NeuralGarden</h3>
+            <p>Train an MNIST classifier in the browser, draw your own digits, and replay how its learned representations evolve. Inspect mistakes and compare runs with different model settings.</p>
+            <div class="card-actions">
+              <a href="https://mykeil-tzul.github.io/neuralgarden/" class="btn btn-primary" aria-label="Open NeuralGarden demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/neuralgarden" class="btn btn-secondary" aria-label="NeuralGarden on GitHub">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img class="project-preview" src="assets/signaldesk-preview.jpg" alt="Notebook and coffee on a work table" loading="lazy" />
+            <span class="tag">Sales &amp; business development</span>
+            <h3>SignalDesk</h3>
+            <p>Work a fictional BDR queue. Rank accounts by buying signals, write an opener, handle a prospect reply, and prepare a handoff for an account executive.</p>
+            <div class="card-actions">
+              <a href="https://mykeil-tzul.github.io/signaldesk/" class="btn btn-primary" aria-label="Open SignalDesk demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/signaldesk" class="btn btn-secondary" aria-label="SignalDesk on GitHub">GitHub</a>
+            </div>
+          </article>
+          <article class="project-card">
+            <img class="project-preview" src="assets/courtiq-preview.png" alt="CourtIQ forecast for Luka Dončić" loading="lazy" />
+            <span class="tag">Predictive ML</span>
+            <h3>CourtIQ</h3>
+            <p>Forecasts points, rebounds, and assists for five NBA players. I evaluated Ridge regression on later games and compared it with a recent-games average.</p>
+            <div class="card-actions">
+              <a href="https://nba-player-predictor-bytzul.streamlit.app/" class="btn btn-primary" aria-label="Open CourtIQ demo">Live demo</a>
+              <a href="https://github.com/Mykeil-tzul/nba-player-predictor" class="btn btn-secondary" aria-label="CourtIQ on GitHub">GitHub</a>
             </div>
           </article>
           <article class="project-card">
@@ -184,26 +216,6 @@
             </div>
           </article>
           <article class="project-card">
-            <img class="project-preview" src="assets/knicks-preview.webp" alt="Knicks win and loss forecast illustration" loading="lazy" />
-            <span class="tag">Sports forecasting</span>
-            <h3>Knicks Win Predictor</h3>
-            <p>Estimates Knicks win probabilities before tipoff and grades saved picks against final scores. A historical test compares the model with a home-court baseline.</p>
-            <div class="card-actions">
-              <a href="https://knicks-win-probability-model-bymt.streamlit.app/" class="btn btn-primary" aria-label="Open Knicks Win Predictor demo">Live demo</a>
-              <a href="https://github.com/Mykeil-tzul/knicks-win-probability-model" class="btn btn-secondary" aria-label="Knicks Win Predictor on GitHub">GitHub</a>
-            </div>
-          </article>
-          <article class="project-card">
-            <img class="project-preview" src="assets/courtcoach-preview.jpg" alt="Basketball footage used for the CourtCoach film review" loading="lazy" />
-            <span class="tag">Film-to-practice planning</span>
-            <h3>CourtCoach AI</h3>
-            <p>Turns confirmed film observations into a seven-day basketball workout plan, with timestamped evidence and a drill retest log.</p>
-            <div class="card-actions">
-              <a href="https://mykeil-tzul.github.io/courtcoach-ai/" class="btn btn-primary" aria-label="Open CourtCoach AI demo">Live demo</a>
-              <a href="https://github.com/Mykeil-tzul/courtcoach-ai" class="btn btn-secondary" aria-label="CourtCoach AI on GitHub">GitHub</a>
-            </div>
-          </article>
-          <article class="project-card">
             <img class="project-preview" src="assets/belizeiq-preview.jpg" alt="Illustration of Belize’s Great Blue Hole" loading="lazy" />
             <span class="tag">Tourism and geospatial analytics</span>
             <h3>BelizeIQ</h3>
@@ -224,26 +236,6 @@
             </div>
           </article>
           <article class="project-card">
-            <img class="project-preview" src="assets/statmatch-preview.webp" alt="Michael Jordan and LeBron James shown side by side" loading="lazy" />
-            <span class="tag">Sports analytics</span>
-            <h3>StatMatch</h3>
-            <p>Compare NBA players across eras, with headshots, career and season stats, and interactive trend charts.</p>
-            <div class="card-actions">
-              <a href="https://statmatch.streamlit.app/" class="btn btn-primary" aria-label="Open StatMatch demo">Live demo</a>
-              <a href="https://github.com/Mykeil-tzul/statmatch" class="btn btn-secondary" aria-label="StatMatch on GitHub">GitHub</a>
-            </div>
-          </article>
-          <article class="project-card">
-            <img class="project-preview" src="assets/wonderworlds-preview.webp" alt="Colorful circle, triangle, and square tiles" loading="lazy" />
-            <span class="tag">Adaptive learning</span>
-            <h3>WonderWorlds</h3>
-            <p>Play five short games with spoken prompts and difficulty that adjusts by skill. Families can review progress on the same device.</p>
-            <div class="card-actions">
-              <a href="https://mykeil-tzul.github.io/wonderworlds/" class="btn btn-primary" aria-label="Open WonderWorlds demo">Live demo</a>
-              <a href="https://github.com/Mykeil-tzul/wonderworlds" class="btn btn-secondary" aria-label="WonderWorlds on GitHub">GitHub</a>
-            </div>
-          </article>
-          <article class="project-card">
             <img class="project-preview" src="assets/scripture-preview.jpg" alt="Sea of Galilee from Mount Arbel" loading="lazy" />
             <span class="tag">On-device AI</span>
             <h3>Walk With Jesus Christ</h3>
@@ -253,58 +245,11 @@
               <a href="https://github.com/Mykeil-tzul/walkwithjesuschrist" class="btn btn-secondary" aria-label="Walk With Jesus Christ on GitHub">GitHub</a>
             </div>
           </article>
-          <article class="project-card">
-            <img class="project-preview" src="assets/neuralgarden-preview.webp" alt="Colored points show the learned two-dimensional representations of MNIST digits" loading="lazy" />
-            <span class="tag">Deep learning</span>
-            <h3>NeuralGarden</h3>
-            <p>Train an MNIST classifier in the browser, draw your own digits, and replay how its learned representations evolve. Inspect mistakes and compare runs with different model settings.</p>
-            <div class="card-actions">
-              <a href="https://mykeil-tzul.github.io/neuralgarden/" class="btn btn-primary" aria-label="Open NeuralGarden demo">Live demo</a>
-              <a href="https://github.com/Mykeil-tzul/neuralgarden" class="btn btn-secondary" aria-label="NeuralGarden on GitHub">GitHub</a>
-            </div>
-          </article>
-          <article class="project-card">
-            <img class="project-preview" src="assets/kriolbridge-preview.webp" alt="Speech bubbles show a thank-you phrase in Belizean Kriol, English, and Spanish" loading="lazy" />
-            <span class="tag">Language technology</span>
-            <h3>KriolBridge AI</h3>
-            <p>Explore Belizean Kriol alongside English and Spanish. Search sourced phrases, practice short conversations, and record your pronunciation locally.</p>
-            <div class="card-actions">
-              <a href="https://mykeil-tzul.github.io/kriolbridge-ai/" class="btn btn-primary" aria-label="Open KriolBridge AI demo">Live demo</a>
-              <a href="https://github.com/Mykeil-tzul/kriolbridge-ai" class="btn btn-secondary" aria-label="KriolBridge AI on GitHub">GitHub</a>
-            </div>
-          </article>
-          <article class="project-card">
-            <img class="project-preview" src="assets/signaldesk-preview.jpg" alt="Notebook and coffee on a work table" loading="lazy" />
-            <span class="tag">Sales &amp; business development</span>
-            <h3>SignalDesk</h3>
-            <p>Work a fictional BDR queue. Rank accounts by buying signals, write an opener, handle a prospect reply, and prepare a handoff for an account executive.</p>
-            <div class="card-actions">
-              <a href="https://mykeil-tzul.github.io/signaldesk/" class="btn btn-primary" aria-label="Open SignalDesk demo">Live demo</a>
-              <a href="https://github.com/Mykeil-tzul/signaldesk" class="btn btn-secondary" aria-label="SignalDesk on GitHub">GitHub</a>
-            </div>
-          </article>
-          <article class="project-card">
-            <img class="project-preview" src="assets/floodlens-preview.webp" alt="Sentinel-1 radar, model prediction, and reference mask side by side" loading="lazy" />
-            <span class="tag">Satellite imagery &amp; ML</span>
-            <h3>FloodLens</h3>
-            <p>Explore a historical flood with Sentinel-1 radar, compare a PyTorch model with a simple radar threshold, and inspect false alarms and misses.</p>
-            <div class="card-actions">
-              <a href="https://mykeil-tzul.github.io/floodlens/" class="btn btn-primary" aria-label="Open FloodLens demo">Live demo</a>
-              <a href="https://github.com/Mykeil-tzul/floodlens" class="btn btn-secondary" aria-label="FloodLens on GitHub">GitHub</a>
-            </div>
-          </article>
-          <article class="project-card">
-            <img class="project-preview" src="assets/ringrank-preview.webp" alt="RingRank title cards for Devin Haney, Shakur Stevenson, and Gervonta Davis" loading="lazy" />
-            <span class="tag">Sports analytics &amp; ML</span>
-            <h3>RingRank</h3>
-            <p>Rewind boxing division rankings, explore title-bout histories for Haney, Shakur, and Tank, and compare a Python matchup model with Elo.</p>
-            <div class="card-actions">
-              <a href="https://mykeil-tzul.github.io/ringrank/" class="btn btn-primary" aria-label="Open RingRank demo">Live demo</a>
-              <a href="https://github.com/Mykeil-tzul/ringrank" class="btn btn-secondary" aria-label="RingRank on GitHub">GitHub</a>
-            </div>
-          </article>
         </div>
-        <p class="project-credit">Model Y photo by <a href="https://commons.wikimedia.org/wiki/File:2022_Tesla_Model_Y_Long_Range_AWD_Front.jpg">Vauxford</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, resized and cropped for display. Sea of Galilee photo by <a href="https://commons.wikimedia.org/wiki/File:View_on_Sea_of_Galilee_from_Mount_Arbel.JPG">Zeromancer44</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, resized and cropped for display. StatMatch portraits from the NBA.</p>
+        <div class="project-archive">
+          <a class="btn btn-secondary" href="https://github.com/Mykeil-tzul#portfolio">View all projects on GitHub ↗</a>
+        </div>
+        <p class="project-credit">Model Y photo by <a href="https://commons.wikimedia.org/wiki/File:2022_Tesla_Model_Y_Long_Range_AWD_Front.jpg">Vauxford</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, resized and cropped for display. Sea of Galilee photo by <a href="https://commons.wikimedia.org/wiki/File:View_on_Sea_of_Galilee_from_Mount_Arbel.JPG">Zeromancer44</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, resized and cropped for display.</p>
       </div>
     </section>
 
