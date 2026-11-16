@@ -12,9 +12,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=portfolio-12" />
+  <link rel="stylesheet" href="styles.css?v=career-impact" />
 </head>
-<body>
+<body id="top">
   <header class="site-header">
     <div class="container nav">
       <a class="brand" href="#top">Mykeil Tzul</a>
@@ -88,31 +88,26 @@
           </div>
     
           <div class="skill-card">
-            <h3>Data & Analytics</h3>
+            <h3>Analytics &amp; Visualization</h3>
             <ul>
-              <li>SQL (joins, aggregations, window functions)</li>
-              <li>Data cleaning & transformation</li>
-              <li>Exploratory data analysis</li>
+              <li>SQL, Python, and R</li>
+              <li>Data cleaning and exploratory analysis</li>
+              <li>Tableau, Power BI, and Plotly</li>
             </ul>
           </div>
-    
           <div class="skill-card">
-            <h3>Data Visualization</h3>
+            <h3>Cloud &amp; Data Platforms</h3>
             <ul>
-              <li>Tableau</li>
-              <li>Matplotlib / Plotly</li>
-              <li>Dashboard storytelling</li>
+              <li>AWS and Google Cloud (GCP)</li>
+              <li>Databricks and Snowflake</li>
             </ul>
           </div>
-    
           <div class="skill-card">
-            <h3>Tools & Platforms</h3>
+            <h3>Application &amp; Delivery Tools</h3>
             <ul>
-              <li>Python</li>
-              <li>Git & GitHub</li>
-              <li>Streamlit</li>
-              <li>DuckDB</li>
-              <li>AWS and GCP</li>
+              <li>APIs and data integration</li>
+              <li>Git and GitHub</li>
+              <li>Streamlit and DuckDB</li>
             </ul>
           </div>
         </div>
@@ -122,6 +117,18 @@
     <section id="projects" class="section section-dark">
       <div class="container">
         <h2>Featured projects</h2>
+        <article class="architecture-feature" aria-labelledby="payworld-feature">
+          <div>
+            <p class="section-label">Featured architecture</p>
+            <h3 id="payworld-feature">PayWorld · What happens when a payment times out?</h3>
+            <p>In this interactive simulation, the issuer approves a cappuccino purchase, but the café never receives the response. Replay the same request key to see how the café can recover the original result while avoiding a duplicate authorization.</p>
+            <a class="btn btn-primary" href="https://mykeil-tzul.github.io/payworld/">Try the timeout scenario</a>
+          </div>
+          <div class="architecture-flow">
+            <p><strong>Cardholder → Merchant → Acquirer → Visa network → Issuer</strong></p>
+            <p>Visa connects the acquiring and issuing sides. The event log follows authorization through clearing and settlement, with separate views for retries and refunds.</p>
+          </div>
+        </article>
         <div class="project-grid project-grid-featured">
           <article class="project-card">
             <img class="project-preview" src="assets/payworld-preview.webp" alt="Illustration of Myke buying a cappuccino" loading="lazy" />
@@ -247,9 +254,19 @@
           </article>
         </div>
         <div class="project-archive">
+          <details class="portfolio-details">
+            <summary>More projects (6)</summary>
+            <ul>
+              <li><strong>Knicks Win Predictor</strong><span><a href="https://knicks-win-probability-model-bymt.streamlit.app/" aria-label="Knicks Win Predictor live demo">Live demo</a> · <a href="https://github.com/Mykeil-tzul/knicks-win-probability-model" aria-label="Knicks Win Predictor on GitHub">GitHub</a></span></li>
+              <li><strong>CourtCoach AI</strong><span><a href="https://mykeil-tzul.github.io/courtcoach-ai/" aria-label="CourtCoach AI live demo">Live demo</a> · <a href="https://github.com/Mykeil-tzul/courtcoach-ai" aria-label="CourtCoach AI on GitHub">GitHub</a></span></li>
+              <li><strong>StatMatch</strong><span><a href="https://statmatch.streamlit.app/" aria-label="StatMatch live demo">Live demo</a> · <a href="https://github.com/Mykeil-tzul/statmatch" aria-label="StatMatch on GitHub">GitHub</a></span></li>
+              <li><strong>WonderWorlds</strong><span><a href="https://mykeil-tzul.github.io/wonderworlds/" aria-label="WonderWorlds live demo">Live demo</a> · <a href="https://github.com/Mykeil-tzul/wonderworlds" aria-label="WonderWorlds on GitHub">GitHub</a></span></li>
+              <li><strong>KriolBridge AI</strong><span><a href="https://mykeil-tzul.github.io/kriolbridge-ai/" aria-label="KriolBridge AI live demo">Live demo</a> · <a href="https://github.com/Mykeil-tzul/kriolbridge-ai" aria-label="KriolBridge AI on GitHub">GitHub</a></span></li>
+              <li><strong>RingRank</strong><span><a href="https://mykeil-tzul.github.io/ringrank/" aria-label="RingRank live demo">Live demo</a> · <a href="https://github.com/Mykeil-tzul/ringrank" aria-label="RingRank on GitHub">GitHub</a></span></li>
+            </ul>
+          </details>
           <a class="btn btn-secondary" href="https://github.com/Mykeil-tzul#portfolio">View all projects on GitHub ↗</a>
         </div>
-        <p class="project-credit">Model Y photo by <a href="https://commons.wikimedia.org/wiki/File:2022_Tesla_Model_Y_Long_Range_AWD_Front.jpg">Vauxford</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, resized and cropped for display. Sea of Galilee photo by <a href="https://commons.wikimedia.org/wiki/File:View_on_Sea_of_Galilee_from_Mount_Arbel.JPG">Zeromancer44</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, resized and cropped for display.</p>
       </div>
     </section>
 
@@ -279,6 +296,15 @@
           <p>I work with retail merchants at Visa Consulting &amp; Analytics to understand where payments can work better. I’m interested in how data, AI, and machine learning can help people make better decisions and build more useful products.</p>
         </div>
 
+        <section class="career-impact" aria-labelledby="impact-title">
+          <h3 id="impact-title">Impact &amp; Track Record</h3>
+          <dl class="impact-grid">
+            <div><dt>Quota attainment</dt><dd><strong>180%</strong><span>As a Visa business development representative working with retail and fintech prospects.</span></dd></div>
+            <div><dt>Revenue generated</dt><dd><strong>$2.7M</strong><span>$1.2M at Vonage and $1.5M at Curve Dental.</span></dd></div>
+            <div><dt>Less onboarding time</dt><dd><strong>20%</strong><span>At Vonage after automating onboarding and reporting workflows.</span></dd></div>
+          </dl>
+        </section>
+
         <div class="career-grid">
           <article class="career-card">
             <h3>Client Partnerships</h3>
@@ -286,7 +312,7 @@
           </article>
           <article class="career-card">
             <h3>Solution Design &amp; Delivery</h3>
-            <p>I translate requirements into demos and prototypes, evaluate how systems fit together, and help teams move from an idea to something they can use.</p>
+            <p>I turn customer requirements into demos and proofs of concept (PoCs). I review API integration requirements and help teams plan what it takes to put a solution to work.</p>
           </article>
           <article class="career-card">
             <h3>Data &amp; Applied AI</h3>
@@ -313,8 +339,7 @@
           <div class="contact-form">
             <h3>Get in Touch</h3>
             <p>
-              I’m always open to connecting, collaborating, and building something meaningful.
-              Send me a message below.
+              I’m exploring opportunities at the intersection of cloud, data, AI, and customer solutions. If you’re working on a technical or business problem where I could help, reach out on LinkedIn or by email.
             </p>
     
             <form action="https://formspree.io/f/mzdkrypd" method="POST">
@@ -335,5 +360,13 @@
       </div>
     </section>
     </main>
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-links"><strong>Myke Tzul</strong><a href="#top">Back to top ↑</a></div>
+        <details><summary>Image credits</summary>
+          <p class="project-credit">Model Y photo by <a href="https://commons.wikimedia.org/wiki/File:2022_Tesla_Model_Y_Long_Range_AWD_Front.jpg">Vauxford</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>, resized and cropped for display. Sea of Galilee photo by <a href="https://commons.wikimedia.org/wiki/File:View_on_Sea_of_Galilee_from_Mount_Arbel.JPG">Zeromancer44</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a>, resized and cropped for display.</p>
+        </details>
+      </div>
+    </footer>
     </body>
     </html>
