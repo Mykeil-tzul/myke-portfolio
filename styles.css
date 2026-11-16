@@ -597,3 +597,12 @@ nav a {
 @media (max-width: 720px) {
   .impact-grid { grid-template-columns: 1fr; }
 }
+
+.project-preview-diagram {
+  object-fit: contain;
+  background: radial-gradient(ellipse at center, #fff7ec, #edcfc9);
+}
+
+.project-preview-budget {
+  object-position: 50% 59%;
+}
