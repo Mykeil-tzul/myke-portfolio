@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=career-impact" />
+  <link rel="stylesheet" href="styles.css?v=project-grid" />
 </head>
 <body id="top">
   <header class="site-header">
@@ -117,18 +117,6 @@
     <section id="projects" class="section section-dark">
       <div class="container">
         <h2>Featured projects</h2>
-        <article class="architecture-feature" aria-labelledby="payworld-feature">
-          <div>
-            <p class="section-label">Featured architecture</p>
-            <h3 id="payworld-feature">PayWorld · What happens when a payment times out?</h3>
-            <p>In this interactive simulation, the issuer approves a cappuccino purchase, but the café never receives the response. Retry with the same request key to avoid a duplicate authorization, then resolve the original request to recover its result.</p>
-            <a class="btn btn-primary" href="https://mykeil-tzul.github.io/payworld/">Try the timeout scenario</a>
-          </div>
-          <div class="architecture-flow">
-            <p><strong>Cardholder → Merchant → Acquirer → Visa network → Issuer</strong></p>
-            <p>Visa connects the acquiring and issuing sides. The event log follows authorization through clearing and settlement, with separate views for retries and refunds.</p>
-          </div>
-        </article>
         <div class="project-grid project-grid-featured">
           <article class="project-card">
             <img class="project-preview" src="assets/payworld-preview.webp" alt="Illustration of Myke buying a cappuccino" loading="lazy" />

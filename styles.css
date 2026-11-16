@@ -572,19 +572,7 @@ nav a {
   }
 }
 
-.architecture-feature {
-  display: grid;
-  grid-template-columns: 1.4fr 1fr;
-  align-items: center;
-  gap: 1.4rem;
-  margin-top: 1.4rem;
-  padding: clamp(1rem, 3vw, 1.65rem);
-  border: 1px solid var(--line);
-  border-radius: 20px;
-  background: var(--card);
-}
-.architecture-feature h3 { margin: .25rem 0 .5rem; }
-.architecture-feature p, .portfolio-details { color: var(--muted); }
+.portfolio-details { color: var(--muted); }
 .architecture-flow { border-inline-start: 3px solid var(--accent); padding-inline-start: 1rem; }
 .architecture-flow strong { color: var(--text); }
 .portfolio-details {
@@ -607,5 +595,5 @@ nav a {
 .site-footer { background: var(--bg); color: var(--muted); padding: 1.5rem 0; }
 .footer-links { display: flex; justify-content: space-between; gap: 1rem; margin-bottom: .6rem; }
 @media (max-width: 720px) {
-  .architecture-feature, .impact-grid { grid-template-columns: 1fr; }
+  .impact-grid { grid-template-columns: 1fr; }
 }
